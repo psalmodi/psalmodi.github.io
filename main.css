@@ -1,0 +1,39 @@
+body {
+ margin:0 auto;
+ width:775px;
+ background-color: #FFF;
+ # font-family:arial,helvetica,san-serif;
+}
+
+div.header {
+ width:100%;
+ margin-top:40px;
+ border-bottom: medium solid #aaa;
+ font-family:arial,helvetica,san-serif;
+ font-size:x-large;
+ margin-bottom:10px;
+}
+
+div.header:before {
+ content:"Williams College Excavations at Psalmodi, France"
+}
+
+div.footer {
+ width:100%;
+ border-top: 1px solid #aaa;
+ font-family:arial,helvetica,san-serif;
+ font-size:small;
+ color:gray;
+ margin-bottom:10px;
+}
+
+div.footer:after {
+ content: "(C)1993-2008 Psalmodi Foundation for Archaeological Research, Inc.";
+}
+
+div.p {
+ margin-left:5px;
+ margin-right:10px;
+ margin-bottom:5px;
+
+}
